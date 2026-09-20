@@ -1,5 +1,8 @@
 package com.saathchalein_backend.saathchalein_backend;
 
+import com.saathchalein_backend.saathchalein_backend.controller.AuthController;
+import com.saathchalein_backend.saathchalein_backend.dto.AdminCreateRequest;
+import com.saathchalein_backend.saathchalein_backend.service.AuthService;
 import tools.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

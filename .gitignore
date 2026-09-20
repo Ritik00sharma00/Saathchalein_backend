@@ -1,13 +1,9 @@
 # Environment / secrets
-.env
-.env.local
-.env.*
 !.env.example
 
 # IDE
 .idea/
 *.iml
-.vscode/
 *.swp
 *.swo
 
@@ -42,3 +38,4 @@ Planning.txt
 # Misc
 .history/
 node_modules/
+config.bat
