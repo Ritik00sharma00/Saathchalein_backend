@@ -1,0 +1,44 @@
+# Environment / secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Maven wrapper (not needed if building with Gradle)
+mvnw
+mvnw.cmd
+.mvn/
+
+# Spring Initializr boilerplate + internal notes (not needed in production)
+HELP.md
+Planning.txt
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Misc
+.history/
+node_modules/

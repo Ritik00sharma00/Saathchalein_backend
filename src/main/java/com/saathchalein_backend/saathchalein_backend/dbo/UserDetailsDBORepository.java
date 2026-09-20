@@ -1,0 +1,11 @@
+package com.saathchalein_backend.saathchalein_backend.dbo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface UserDetailsDBORepository extends JpaRepository<UserDetailsDBO, Long> {
+    Optional<UserDetailsDBO> findByUser(UserDBO user);
+}
